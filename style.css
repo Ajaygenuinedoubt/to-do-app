@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+
+body {
+	background: #020536;
+	overflow: auto;
+}
+
+h1{
+	text-align: center;
+	margin: 5%;
+	font-size: 3rem;
+	text-decoration: underline;
+}
+
+ul {
+	text-align: left;
+	padding-left: 10%;
+	padding: 7%;
+	font-size: 2rem;
+	list-style: number;
+}
+
+li:hover{
+	color:rgb(180, 199, 85);
+	margin: 4%;
+	transition: 1.5s ease;
+	cursor: pointer;
+}
+img {
+    opacity: 0.8;
+    height: 220px;
+    width: 40%;
+    /* object-fit: cover; */
+    flex-direction: row;
+    box-sizing: content-box;
+    border-bottom: #020536;
+    border-top: red;
+  }
